@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>JAVA_ASSIGNMENTS_KOGNOSDATA</groupId>
+  <artifactId>JAVA_ASSIGNMENTS_KOGNOSDATA</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+<dependencies>
+
+<dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.6</version> 
+        </dependency>
+
+<dependency>
+    <groupId>org.hdfgroup</groupId>
+    <artifactId>hdf-java</artifactId>
+    <version>2.6.1</version>
+</dependency>
+
+    <!-- HDF5 Java library -->
+    <dependency>
+        <groupId>org.hdfgroup</groupId>
+        <artifactId>hdf5-java</artifactId>
+        <version>2.6.1</version> <!-- Adjust version as needed -->
+    </dependency>
+
+    <!-- Apache Commons CSV -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-csv</artifactId>
+        <version>3.4.0</version> <!-- Adjust version as needed -->
+    </dependency>
+
+
+
+  <!-- <dependency>
+        <groupId>org.hdfgroup</groupId>
+        <artifactId>hdf-java</artifactId>
+        <version>3.3.1</version> 
+    </dependency> 
+-->
+
+
+       
+</dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>16</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
