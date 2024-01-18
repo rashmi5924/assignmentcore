@@ -4,6 +4,10 @@
 4.In assignment2 successfully converted log from “lbm/galUS” to “kg/m3” for the second column data.
 5.Assignment3 created the mud_weightpi.csv file and hdf java file.
 6.In Assignment4 created the Survey.h5 file.
+7. Rashmi_Assignment1 contains PB_assign,ment1 solution. Screenshot is attached after running the application.
+browse the text file and display the result.
+8.Rashmi_Assignment2 contains PB_assign,ment2 solution. Screenshot is attached after running the application.
+browse the excel file search for keyword and display the row and column number ands display the result.
 
 
 
